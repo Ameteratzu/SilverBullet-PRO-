@@ -1,0 +1,15 @@
+Unhandled exception thrown on 10/31/2023 7:53:51 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at EO.Wpf.WebViewHost.ufrt.Dispose(Boolean disposing)
+   at System.Windows.Interop.HwndHost.WeakEventDispatcherShutdown.OnShutdownFinished(Object sender, EventArgs e)
+   at System.Windows.Threading.Dispatcher.ShutdownImplInSecurityContext(Object state)
+   at MS.Internal.CulturePreservingExecutionContext.CallbackWrapper(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at MS.Internal.CulturePreservingExecutionContext.Run(CulturePreservingExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Windows.Threading.Dispatcher.ShutdownImpl()
+   at System.Windows.Threading.Dispatcher.PushFrameImpl(DispatcherFrame frame)
+   at System.Windows.Application.RunDispatcher(Object ignore)
+   at System.Windows.Application.RunInternal(Window window)
+   at SilverBulletPro.App.Main()

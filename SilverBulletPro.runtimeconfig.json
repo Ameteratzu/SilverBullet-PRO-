@@ -1,0 +1,21 @@
+{
+  "runtimeOptions": {
+    "configProperties": {
+      "NetBeautyLibsDir": ".;./bin",
+      "NetBeautySharedRuntimeMode": "no",
+      "STARTUP_HOOKS": "nbloader",
+      "System.Reflection.Metadata.MetadataUpdater.IsSupported": false
+    },
+    "frameworks": [
+      {
+        "name": "Microsoft.NETCore.App",
+        "version": "7.0.0"
+      },
+      {
+        "name": "Microsoft.WindowsDesktop.App",
+        "version": "7.0.0"
+      }
+    ],
+    "tfm": "net7.0"
+  }
+}
